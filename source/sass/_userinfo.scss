@@ -1,0 +1,53 @@
+.user-info{
+	@extend .col-xs-12;
+	@extend .card;
+	padding:0;
+	.user-info-heading{
+	  height:170px;
+      background:url('../img/ilustracao.jpg') center top no-repeat;
+      background-size:cover;
+      padding-top:3rem;
+    .user-info-title,
+    .user-info-desc{
+    	text-align:center;
+    	color:#ffffff;
+    }
+    .user-info-title{
+    	font-size:1.7rem;
+       }
+    .user-info-desc{
+    	font-size:1rem;
+    }
+    .user-info-mol{
+       	width:80px;
+    	position:absolute;
+    	left:50%;
+    	margin-left:-40px;
+    	margin-top:20px;
+    	.user-info-photo{
+    		@extend .img-fluid;
+    		border-radius:50%;
+    		border: 5px solid #fff;
+
+    	}
+    }
+	}
+	.user-info-body{
+		padding:4rem 2rem;
+		text-align:center;
+		color:#b0bec5;
+	.user-item{
+		@extend .col-xs-12;
+
+	.item-number,
+	.item-text{
+		display:block;
+	}
+	.item-number{
+		font-size:1.5rem;
+		color:#000;
+	}
+	}
+}
+
+}

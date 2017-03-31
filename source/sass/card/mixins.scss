@@ -1,0 +1,20 @@
+@import "variables.scss";
+
+
+
+@mixin card-primary () {
+	&.card{
+		.card-header{
+			background:$card-header-primary-bg;
+		}
+	}
+}
+
+@mixin card-info () {
+	&.card{
+		.card-header{
+			background:$card-header-info-bg;
+		}
+	}
+}
+

@@ -1,0 +1,32 @@
+.rating-item{
+	.progress{
+		height:0.5rem;
+	}
+	.rating-text{
+		margin-bottom:1rem;
+		display:block;
+		color:#b0bec5;
+	}
+
+	&.rating-success{
+	.rating-text > .fa{
+		color:$brand-success;
+	}
+	}
+	&.rating-primary{
+	.rating-text > .fa{
+		color:$brand-primary;
+	}
+}
+
+&.rating-warning{
+	.rating-text > .fa{
+		color:$brand-warning;
+	}
+}
+&.rating-danger{
+	.rating-text > .fa{
+		color:$brand-danger;
+	}
+}
+}

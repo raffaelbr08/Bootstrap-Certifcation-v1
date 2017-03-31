@@ -1,0 +1,63 @@
+.section-resume {
+	padding: 0 .5rem;
+		.resume {
+		@extend .col-xs-12;
+		background-color:#fff;
+		margin-bottom:1rem;
+		padding:0;
+		.resume-hook {
+			width:30%;
+			float:left;
+			height:70px;
+			line-height:70px;
+			text-align:center;
+			color:#fff;
+			font-weight:bold;
+					}
+	.resume-body {
+		width:70%;
+		float:left;
+		padding-left:1rem;
+		padding-top:1rem;
+	.resume-title{
+		font-size:1rem;
+		margin-bottom:0;
+		font-weight:bold;
+		text-transform:uppercase;
+
+	  }
+	.resume-value{
+		font-size:.85rem;
+		margin-top:0;
+		font-weight:bold;
+	 		}
+		}
+	 
+	        &.total-sales{
+			   .resume-hook{
+				background-color:$brand-danger;}
+				.resume-title{color:$brand-danger;}
+	
+			}
+			&.new-quote{
+				.resume-hook{
+				background-color:$brand-info;}
+				.resume-title{color:$brand-info;}
+			}
+			&.orders{
+				.resume-hook{
+				background-color:purple;}
+				.resume-title{color:purple;}
+			}
+			&.products{
+				.resume-hook{
+				background-color:darken($brand-info,20%);}
+				.resume-title{color:darken($brand-info,20%);}
+			}
+
+
+}
+@media(orientation:landscape){
+	.resume{.col-xs-6;} 
+}
+}

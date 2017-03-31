@@ -1,0 +1,42 @@
+.section-box-state{
+	@extend .section-resume;
+}
+
+.box-state{
+	@extend .card;
+	@extend .col-xs-12;
+	padding-top:.5rem;
+	.state-title{
+		@extend .card-title;
+		font-size: 1.5rem;
+		padding-top:1rem;
+		.title-right{
+			float:right;
+			font-size:1rem;
+		.label-state {
+			display:inline-block;
+			width:10px;
+			height:10px;
+			background-color:$brand-info;
+		}
+		}
+		
+	}
+
+
+	.state-body{
+		@extend .card-block;
+		.state-img{
+		@extend .img-fluid;}
+		}
+	.state-footer{
+		@extend .card-footer;
+		.footer-text{
+			color:#b0bec5;
+			text-align:center;
+		}
+
+	}
+}
+
+	

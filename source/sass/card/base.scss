@@ -1,0 +1,33 @@
+@import  "variables.scss";
+@import "mixins.scss";
+
+.card {
+	width:100%;
+	background:$card-bg;
+ 	min-height:$card-min-height;
+ 	float:left;
+.card-header {
+ 	height:$card-header-height;
+ 	line-height:$card-header-line-height;
+ 	background:$card-header-bg;
+.card-title {
+ 	font-size:$card-header-title;
+ 	text-align:center;
+ 	font-weight:bold;
+ }
+  }
+.card-body{
+	padding:10px;
+}
+@include card-primary;
+
+@media(max-width: 480px){
+	&.card-01,
+	&.card-02 {width:50%;
+
+	}
+}
+@media(orientation:landscape){
+	body {background:red;}
+}
+}

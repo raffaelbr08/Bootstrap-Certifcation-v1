@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap",
+  "description": "curso bt",
+  "main": "index.js",
+  "authors": [
+    "Rafael"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "cursobt"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "components-font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "bootstrap": "v4.0.0-alpha.2"
+  }
+}
